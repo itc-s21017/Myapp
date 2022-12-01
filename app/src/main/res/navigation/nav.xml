@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/titleFragment">
+
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="jp.ac.it_college.std.s21017.myapplicationispoke.TitleFragment"
+        android:label="fragment_title"
+        tools:layout="@layout/fragment_title" />
+    <fragment
+        android:id="@+id/generation"
+        android:name="jp.ac.it_college.std.s21017.myapplicationispoke.Generation"
+        android:label="fragment_generation"
+        tools:layout="@layout/fragment_generation" />
+    <fragment
+        android:id="@+id/pokeService"
+        android:name="jp.ac.it_college.std.s21017.myapplicationispoke.PokeService"
+        android:label="fragment_poke_service"
+        tools:layout="@layout/fragment_poke_service" />
+    <fragment
+        android:id="@+id/pokemon"
+        android:name="jp.ac.it_college.std.s21017.myapplicationispoke.Pokemon"
+        android:label="fragment_pokemon"
+        tools:layout="@layout/fragment_pokemon" />
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="jp.ac.it_college.std.s21017.myapplicationispoke.QuizFragment"
+        android:label="fragment_quiz"
+        tools:layout="@layout/fragment_quiz" />
+    <fragment
+        android:id="@+id/selectGenerationFragment"
+        android:name="jp.ac.it_college.std.s21017.myapplicationispoke.SelectGenerationFragment"
+        android:label="fragment_select_generation"
+        tools:layout="@layout/fragment_select_generation" />
+</navigation>
